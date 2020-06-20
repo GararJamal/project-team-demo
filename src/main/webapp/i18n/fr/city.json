@@ -1,0 +1,25 @@
+{
+  "projectTeamDemoApp": {
+    "city": {
+      "home": {
+        "title": "Cities",
+        "createLabel": "Créer un nouveau City",
+        "createOrEditLabel": "Créer ou éditer un City",
+        "search": "Recherche pour City",
+        "notFound": "Aucun City trouvé"
+      },
+      "created": "Un nouveau City a été créé avec l'identifiant {{ param }}",
+      "updated": "Le City avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le City avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le City {{ id }} ?"
+      },
+      "detail": {
+        "title": "City"
+      },
+      "nom": "Nom",
+      "code": "Code",
+      "in": "In"
+    }
+  }
+}
