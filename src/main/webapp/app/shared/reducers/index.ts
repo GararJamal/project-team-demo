@@ -40,6 +40,18 @@ import job, {
 import jobHistory, {
   JobHistoryState
 } from 'app/entities/job-history/job-history.reducer';
+// prettier-ignore
+import role, {
+  RoleState
+} from 'app/entities/role/role.reducer';
+// prettier-ignore
+import driver, {
+  DriverState
+} from 'app/entities/driver/driver.reducer';
+// prettier-ignore
+import car, {
+  CarState
+} from 'app/entities/car/car.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -60,6 +72,9 @@ export interface IRootState {
   readonly employee: EmployeeState;
   readonly job: JobState;
   readonly jobHistory: JobHistoryState;
+  readonly role: RoleState;
+  readonly driver: DriverState;
+  readonly car: CarState;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
@@ -82,6 +97,9 @@ const rootReducer = combineReducers<IRootState>({
   employee,
   job,
   jobHistory,
+  role,
+  driver,
+  car,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar,
 });
