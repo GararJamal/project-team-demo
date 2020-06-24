@@ -1,0 +1,54 @@
+{
+  "name": "Role",
+  "fields": [
+    {
+      "fieldName": "nAME",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cODE",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dESCRIPTION",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cREATEDBY",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "cREATEDAT",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "uPDATEDBY",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "uPDATEDAT",
+      "fieldType": "Instant"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "utilisateur",
+      "otherEntityRelationshipName": "have",
+      "relationshipName": "assignedTo",
+      "otherEntityField": "uSERNAME",
+      "ownerSide": false
+    }
+  ],
+  "changelogDate": "20200624210058",
+  "entityTableName": "role",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

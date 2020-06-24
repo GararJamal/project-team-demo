@@ -1,0 +1,82 @@
+{
+  "name": "Utilisateur",
+  "fields": [
+    {
+      "fieldName": "eMAIL",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "pHONENUMBER",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "uSERNAME",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lASTSEEN",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "dEACTIVATIONDATE",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "fIRSTNAME",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lASTNAME",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "oCCUPATION",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cITY",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kIND",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cREATEDBY",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "cREATEDAT",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "uPDATEDBY",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "uPDATEDAT",
+      "fieldType": "Instant"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "role",
+      "otherEntityRelationshipName": "assignedTo",
+      "relationshipName": "have",
+      "otherEntityField": "nAME",
+      "ownerSide": true
+    }
+  ],
+  "changelogDate": "20200624205958",
+  "entityTableName": "utilisateur",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
