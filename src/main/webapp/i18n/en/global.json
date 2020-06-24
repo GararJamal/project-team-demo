@@ -14,6 +14,8 @@
         "employee": "Employee",
         "job": "Job",
         "jobHistory": "Job History",
+        "utilisateur": "Utilisateur",
+        "role": "Role",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

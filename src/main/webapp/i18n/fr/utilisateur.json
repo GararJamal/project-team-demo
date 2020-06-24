@@ -1,0 +1,37 @@
+{
+  "projectTeamDemoApp": {
+    "utilisateur": {
+      "home": {
+        "title": "Utilisateurs",
+        "createLabel": "Créer un nouveau Utilisateur",
+        "createOrEditLabel": "Créer ou éditer un Utilisateur",
+        "search": "Recherche pour Utilisateur",
+        "notFound": "Aucun Utilisateur trouvé"
+      },
+      "created": "Un nouveau Utilisateur a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Utilisateur avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Utilisateur avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Utilisateur {{ id }} ?"
+      },
+      "detail": {
+        "title": "Utilisateur"
+      },
+      "eMAIL": "E MAIL",
+      "pHONENUMBER": "P HONENUMBER",
+      "uSERNAME": "U SERNAME",
+      "lASTSEEN": "L ASTSEEN",
+      "dEACTIVATIONDATE": "D EACTIVATIONDATE",
+      "fIRSTNAME": "F IRSTNAME",
+      "lASTNAME": "L ASTNAME",
+      "oCCUPATION": "O CCUPATION",
+      "cITY": "C ITY",
+      "kIND": "K IND",
+      "cREATEDBY": "C REATEDBY",
+      "cREATEDAT": "C REATEDAT",
+      "uPDATEDBY": "U PDATEDBY",
+      "uPDATEDAT": "U PDATEDAT",
+      "have": "Have"
+    }
+  }
+}
